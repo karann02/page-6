@@ -1,0 +1,401 @@
+.subtotal-tax-frame-child {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.creditdebit-card2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.subtotal-tax-frame4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 6px;
+}
+.saved-cards {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  z-index: 1;
+}
+.rate-qty-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.dr-name-frame {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.net-banking3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.summary-frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 7px;
+}
+.summary-frame-child {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.paypal2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.summary-frame3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 9px;
+}
+.summary-frame-item {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.bitcoin2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.skin-club-logo-frame1,
+.summary-frame4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.skin-club-logo-frame1 {
+  gap: 0 28px;
+  max-width: 100%;
+}
+.frame-child63 {
+  height: 100px;
+  width: 693px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.s-u-m-m-e-r-y-frame-child {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  z-index: 1;
+}
+.vitamin-a-serum-frame-child {
+  height: 64px;
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.image-12-icon {
+  height: 32.4px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.s-u-m-m-e-r-y-frame,
+.vitamin-a-serum-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vitamin-a-serum-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 0;
+  background-color: var(--color-white);
+  border-radius: var(--br-8xs);
+  justify-content: center;
+  z-index: 1;
+}
+.s-u-m-m-e-r-y-frame {
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.confirm-payment-agree {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.visa-card {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  z-index: 1;
+}
+.product-container-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 11px 0;
+}
+.frame-child64,
+.rectangle-parent59 {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent59 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-10xl) var(--padding-lg)
+    var(--padding-8xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.frame-child64 {
+  height: 100px;
+  width: 693px;
+  position: relative;
+  display: none;
+}
+.group-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  z-index: 1;
+}
+.frame-child65 {
+  height: 64px;
+  width: 100px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.image-13-icon {
+  height: 61.8px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-parent18,
+.rectangle-parent61 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rectangle-parent61 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  justify-content: center;
+  padding: var(--padding-12xs) 0 var(--padding-11xs);
+  z-index: 1;
+}
+.frame-parent18 {
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.div95,
+.master-card {
+  position: relative;
+  z-index: 1;
+}
+.div95 {
+  white-space: nowrap;
+}
+.master-card {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+}
+.parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 11px 0;
+}
+.rectangle-parent60 {
+  align-self: stretch;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-10xl) var(--padding-lg)
+    var(--padding-8xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.line-separator-frame,
+.total-frame14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.total-frame14 {
+  flex: 1;
+  flex-direction: column;
+  gap: 12px 0;
+}
+.line-separator-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-child66 {
+  height: 48px;
+  width: 184px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.add-new-card {
+  width: 106px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.rectangle-parent62 {
+  cursor: pointer;
+  border: 1px solid var(--color-dimgray-100);
+  padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
+  background-color: var(--color-white);
+  width: 184px;
+  border-radius: var(--br-5xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent62:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+}
+.invoice-preview-frame1,
+.preview-invoice-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+}
+.invoice-preview-frame1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: 17px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 700px) {
+  .rectangle-parent59,
+  .rectangle-parent60,
+  .skin-club-logo-frame1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .confirm-payment-agree {
+    font-size: var(--font-size-base);
+  }
+  .visa-card {
+    font-size: var(--font-size-lgi);
+  }
+  .div95 {
+    font-size: var(--font-size-base);
+  }
+  .master-card {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,1038 @@
+.create-a-invoice,
+.payment {
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  font-family: inherit;
+}
+.payment {
+  font-size: inherit;
+  line-height: 51px;
+}
+.create-a-invoice {
+  font-size: var(--font-size-xl);
+  line-height: 22px;
+  color: var(--color-dimgray-400);
+}
+.invoice-preview-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.discount-frame-child {
+  width: 751px;
+  height: 761px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.tax-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frame {
+  accent-color: #36c490;
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 2;
+}
+.subtotal-frame {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.shipping {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.rate-qty-amount-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 7px;
+}
+.payment-method {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-dimgray-100);
+  z-index: 1;
+}
+.rate-qty-amount-frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px 0;
+}
+.payment-method-frame {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  z-index: 1;
+}
+.final-notes-terms-frame,
+.frame-parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.final-notes-terms-frame {
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+}
+.frame-parent {
+  flex-direction: row;
+  gap: 0 3px;
+  min-width: 180px;
+}
+.dr-vihang-jane-doe-frame {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-100);
+  border: 0 solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.div {
+  position: relative;
+  z-index: 2;
+  margin-top: -32px;
+}
+.notes-terms-text {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.billing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.notes-terms-text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.agree-to-terms-frame {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  z-index: 1;
+}
+.save-and-confirm-frame {
+  width: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.notes-terms-text-child {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.div1 {
+  position: relative;
+  z-index: 2;
+  margin-top: -32px;
+}
+.notes-terms-text2 {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+}
+.confirmation {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.notes-terms-text3,
+.total-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.total-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  gap: 0 9px;
+}
+.by-clicking-on,
+.with-the-terms {
+  margin: 0;
+}
+.by-clicking-on-container {
+  margin: 0;
+  width: 277px;
+  position: relative;
+  font-size: inherit;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frame-child {
+  height: 48px;
+  width: 184px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.save {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: center;
+  z-index: 1;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 1px solid var(--color-dimgray-100);
+  padding: var(--padding-smi) var(--padding-30xl) var(--padding-sm)
+    var(--padding-29xl);
+  background-color: var(--color-white);
+  flex: 1;
+  border-radius: var(--br-5xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  z-index: 1;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+}
+.frame-item {
+  height: 48px;
+  width: 184px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-black);
+  display: none;
+}
+.confirm-payment {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.rectangle-group {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-16xl) var(--padding-sm)
+    var(--padding-20xl);
+  background-color: var(--color-black);
+  border-radius: var(--br-5xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-group:hover {
+  background-color: var(--color-darkslategray);
+}
+.dr-vihang-jane-doe,
+.subtotal,
+.vitamin-a-night-serum {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subtotal {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 15px;
+}
+.dr-vihang-jane-doe,
+.vitamin-a-night-serum {
+  max-width: 100%;
+}
+.vitamin-a-night-serum {
+  width: 383px;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.dr-vihang-jane-doe {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.discount-frame,
+.notes-terms-child {
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.discount-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-104xl);
+  box-sizing: border-box;
+  gap: 16px 0;
+  min-width: 488px;
+}
+.notes-terms-child {
+  width: 377px;
+  height: 761px;
+  position: relative;
+  display: none;
+}
+.preview-invoice {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.preview-invoice-vector-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.vector-vector-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 14px;
+  height: 13.3px;
+  z-index: 2;
+}
+.preview-invoice-vector,
+.preview-invoice-vector-item {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+}
+.preview-invoice-vector {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  z-index: 1;
+}
+.preview-invoice-vector-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.vector-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+.preview-invoice-vector1 {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  z-index: 1;
+}
+.subtotaltax-discount {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.loremipsumdolorsitamet {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-inner {
+  width: 345px;
+  height: 484px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.skinclublogo-logotype-white-2-icon {
+  width: 90.7px;
+  height: 16px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.summery {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.payment-frame-icon {
+  height: 0;
+  width: 255px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.design-overview-line,
+.vitamin-a-night-serum-serum-se {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 1px;
+}
+.design-overview-line {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs);
+  gap: 18px 0;
+  color: var(--color-dimgray-100);
+}
+.dr-vihang,
+.jane-doe {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.discount-frame1,
+.subtotal-tax-frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.discount-frame1 {
+  width: 175px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.subtotal-tax-frame2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-2xs);
+  font-size: var(--font-size-xs);
+}
+.product-details-line-child {
+  align-self: stretch;
+  height: 146px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  display: none;
+}
+.subtotal-frame-child {
+  height: 49px;
+  width: 305px;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-black);
+  display: none;
+}
+.item {
+  position: relative;
+  line-height: 20px;
+  z-index: 3;
+}
+.item-frame {
+  width: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount,
+.qty,
+.rate {
+  position: relative;
+  line-height: 20px;
+  z-index: 3;
+}
+.subtotal-frame1 {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-smi) var(--padding-sm)
+    var(--padding-xs);
+  gap: var(--gap-xl);
+  z-index: 2;
+  color: var(--color-white);
+}
+.total-line,
+.vitamin-a-night {
+  position: relative;
+  line-height: 17px;
+  z-index: 2;
+}
+.vitamin-a-night {
+  flex: 1;
+}
+.total-line {
+  width: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.tax-line {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 3px;
+  min-width: 105px;
+}
+.notes-terms-frame,
+.summary-line {
+  width: 32px;
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.notes-terms-frame {
+  white-space: nowrap;
+}
+.subtotal-line,
+.vitamin-a-serum-line {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subtotal-line {
+  flex: 1;
+  gap: 0 26px;
+}
+.vitamin-a-serum-line {
+  align-self: stretch;
+  padding: 0 var(--padding-mini) 0 var(--padding-2xs);
+}
+.div2,
+.vitamin-a-night1 {
+  position: relative;
+  line-height: 17px;
+  z-index: 2;
+}
+.vitamin-a-night1 {
+  flex: 1;
+}
+.div2 {
+  width: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.vitamin-a-night-serum-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 3px;
+  min-width: 105px;
+}
+.div3,
+.div4 {
+  width: 32px;
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.div4 {
+  white-space: nowrap;
+}
+.frame-group,
+.vitamin-a-serum-line1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  flex: 1;
+  gap: 0 26px;
+}
+.vitamin-a-serum-line1 {
+  align-self: stretch;
+  padding: 0 var(--padding-mini) 0 var(--padding-2xs);
+}
+.div5,
+.vitamin-a-night2 {
+  position: relative;
+  line-height: 17px;
+  z-index: 2;
+}
+.vitamin-a-night2 {
+  flex: 1;
+}
+.div5 {
+  width: 32px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.vitamin-a-night-serum-group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 3px;
+  min-width: 105px;
+}
+.div6,
+.div7 {
+  width: 32px;
+  position: relative;
+  line-height: 17px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.div7 {
+  white-space: nowrap;
+}
+.frame-container,
+.product-details-line,
+.vitamin-a-serum-line2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  flex: 1;
+  gap: 0 26px;
+}
+.product-details-line,
+.vitamin-a-serum-line2 {
+  align-self: stretch;
+  padding: 0 var(--padding-mini) 0 var(--padding-2xs);
+}
+.product-details-line {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray-200);
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-mid);
+  gap: 9px 0;
+  z-index: 1;
+}
+.discount-10,
+.subtotal1,
+.tax-5 {
+  position: relative;
+  line-height: 20px;
+}
+.subtotal1 {
+  font-weight: 500;
+  color: var(--color-black);
+  z-index: 1;
+}
+.discount-10,
+.tax-5 {
+  z-index: 2;
+}
+.discount-10 {
+  white-space: nowrap;
+  z-index: 3;
+}
+.final-total-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.div10,
+.div8,
+.div9 {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.div8 {
+  font-weight: 500;
+  color: var(--color-black);
+  z-index: 1;
+}
+.div10,
+.div9 {
+  z-index: 2;
+}
+.div10 {
+  z-index: 3;
+}
+.final-total-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.notes-terms-line,
+.total-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.notes-terms-line {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.total-frame1 {
+  width: 169px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--color-dimgray-300);
+}
+.subtotal2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.total1,
+.total2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  z-index: 1;
+}
+.total2 {
+  white-space: nowrap;
+}
+.summary-line1,
+.total {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.summary-line1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.total {
+  width: 114px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) var(--padding-9xs) 0;
+  box-sizing: border-box;
+}
+.notes-terms-item {
+  height: 55px;
+  width: 305px;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  display: none;
+}
+.notesterms {
+  margin-bottom: -5px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  z-index: 3;
+}
+.subtotal-frame2 {
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lorem-ipsum-dolor {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-cabin);
+  font-size: var(--font-size-3xs);
+  background-color: transparent;
+  align-self: stretch;
+  height: 17px;
+  position: relative;
+  line-height: 20px;
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 137px;
+  z-index: 2;
+}
+.notes-terms1,
+.subtotal-frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subtotal-frame-parent {
+  width: 228px;
+  flex-direction: column;
+}
+.notes-terms1 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs) var(--padding-mini);
+  z-index: 1;
+}
+.invoice-preview,
+.notes-terms,
+.rectangle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.invoice-preview {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: 0 var(--padding-9xs);
+  gap: 8px 0;
+}
+.notes-terms,
+.rectangle-container {
+  background-color: var(--color-white);
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-container {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-dimgray-200);
+  padding: var(--padding-xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-3xl);
+  z-index: 1;
+  font-size: var(--font-size-3xs);
+}
+.notes-terms {
+  width: 377px;
+  border-radius: var(--br-sm);
+  padding: var(--padding-xl) var(--padding-base) var(--padding-185xl);
+  gap: 15px 0;
+  min-width: 377px;
+}
+.agree-terms-checkbox,
+.subtotal-tax-frame1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subtotal-tax-frame1 {
+  flex-direction: row;
+  gap: 0 24px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.agree-terms-checkbox {
+  flex-direction: column;
+  gap: 33px 0;
+}
+.confirm-payment-button {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 264px);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-cabin);
+}
+.confirm-payment-button,
+.payment-process-saved-cards,
+.subtotal-tax-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subtotal-tax-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 24px;
+  max-width: 100%;
+}
+.payment-process-saved-cards {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-floralwhite);
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .payment {
+    font-size: var(--font-size-5xl);
+    line-height: 41px;
+  }
+  .discount-frame,
+  .notes-terms {
+    padding-bottom: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+  .notes-terms {
+    flex: 1;
+    padding-bottom: var(--padding-114xl);
+  }
+  .subtotal-tax-frame1 {
+    flex-wrap: wrap;
+  }
+  .confirm-payment-button {
+    max-width: 100%;
+  }
+  .subtotal-tax-frame {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .total-frame {
+    flex-wrap: wrap;
+  }
+  .discount-frame {
+    min-width: 100%;
+  }
+  .agree-terms-checkbox {
+    gap: 33px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .payment {
+    font-size: var(--font-size-lg);
+    line-height: 31px;
+  }
+  .create-a-invoice {
+    font-size: var(--font-size-base);
+    line-height: 18px;
+  }
+  .subtotal {
+    flex-wrap: wrap;
+  }
+  .discount-frame {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+  .loremipsumdolorsitamet,
+  .vitamin-a-night-serum-serum-se {
+    flex-wrap: wrap;
+  }
+  .qty {
+    width: 100%;
+    height: 17px;
+  }
+  .frame-container,
+  .frame-group,
+  .subtotal-frame1,
+  .subtotal-line {
+    flex-wrap: wrap;
+  }
+  .notes-terms {
+    padding-bottom: var(--padding-67xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
